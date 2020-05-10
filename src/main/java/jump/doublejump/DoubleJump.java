@@ -14,6 +14,8 @@ import cn.nukkit.math.Vector3;
 public class DoubleJump extends PluginBase implements Listener {
 	
 	public void onEnable() {
+		this.getLogger().notice("§eThis Plugin Is Made By aesoppppp");
+        this.getLogger().info("§dDoubleJump Is Enabled!");
 		getServer().getPluginManager().registerEvents(this, this);
 	}
 	
