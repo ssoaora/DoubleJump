@@ -1,5 +1,5 @@
-name: DoubleJump
-author: aesoppppp
-version: 0.0.1
-main: jump.doublejump.DoubleJump
+name: NXBooster
+author: NX/aesoppppp
+version: 0.0.2
+main: booster.Main
 api: [1.0.0]
