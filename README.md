@@ -8,5 +8,6 @@ You can't do this on Creative. (cuz you are already FLYING)
 Sometimes, you can doublejump twice.
 # ToDo
 - [ ] Add toggle switch to enable Creative doublejump.  
-- [ ] Add License  
-- [ ] Add getLogger()
+- [x] Add License  
+- [x] Add getLogger()
+- [x] Add sound effect when double jumping
