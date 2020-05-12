@@ -1,5 +1,15 @@
 name: DoubleJump
 author: aesoppppp
-version: 0.0.2
+version: 0.0.3
 main: jump.doublejump.DoubleJump
 api: [1.0.0]
+
+commands:
+    djump:
+     description: Toggle Djump on and off
+     permission: jump.Doublejump
+
+permissions:
+  jump.Doublejump:
+    description: "Toggle Djump on and off"
+    default: true
