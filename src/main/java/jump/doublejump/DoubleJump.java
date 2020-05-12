@@ -24,7 +24,7 @@ public class DoubleJump extends PluginBase implements Listener {
 	
 	public void onEnable() {
 		this.getLogger().notice("§eThis Plugin Is Made By aesoppppp");
-        this.getLogger().info("§dDoubleJump v0.0.3 Is Enabled!");
+        this.getLogger().info("§aDoubleJump v0.0.3 Is Enabled!");
 		getServer().getPluginManager().registerEvents(this, this);
 	}
 	
@@ -36,11 +36,11 @@ public class DoubleJump extends PluginBase implements Listener {
 			}
 			Player player = (Player) sender;
 			if(toggled.contains(player.getName())) {
-				player.sendMessage("§cYou are not Double Jumping!");
+				player.sendMessage("§cDouble Jump Disabled");
 				toggled.remove(player.getName());
 				return true;
 			}
-			player.sendMessage("§7[§6!§7] §fYou are now Double Jumping!");
+			player.sendMessage("§aDouble Jump Enabled!");
 			toggled.add(player.getName());
 			return true;
 		}
